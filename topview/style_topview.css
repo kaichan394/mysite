@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    height: 500px;
+    height: calc(100vh - 50px);
     /* background-color: red; */
 }
 
@@ -15,6 +15,10 @@
     right: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tv-content {
@@ -25,9 +29,10 @@
 .tv-image-profile {
     position: relative;
     top: 0;
-    margin-top: 100px;
     width: 200px;
     height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 100%;
     border-style: solid;
     border-color: white;
@@ -35,9 +40,15 @@
 }
 
 h1.tv-name-label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
     font-size: 50px;
 }
 
 p.tv-description-label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
     font-size: 30px;
 }
