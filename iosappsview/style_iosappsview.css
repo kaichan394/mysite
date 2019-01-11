@@ -1,0 +1,61 @@
+#iosappsview {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.iv-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.iv-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iv-content {
+    text-align: center;
+    color: white;
+}
+
+ul.iv-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none outside;
+}
+
+li.iv-item {
+    width: 33.333%;
+    height: 270px;
+    padding: 0;
+    float: left;
+}
+
+.iv-image-app {
+    position: relative;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20%;
+}
+
+.iv-app-name {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
