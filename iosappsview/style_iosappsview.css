@@ -39,7 +39,7 @@ ul.iv-list {
 
 li.iv-item {
     width: 33.333%;
-    height: 270px;
+    height: 280px;
     padding: 0;
     float: left;
 }
@@ -56,6 +56,6 @@ li.iv-item {
 
 .iv-app-name {
     font-size: 30px;
-    margin: 0;
+    margin-top: 5px;
     padding: 0;
 }
