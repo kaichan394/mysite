@@ -12,9 +12,10 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
-    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0;
 }
 
@@ -39,7 +40,7 @@ ul.iv-list {
 
 li.iv-item {
     width: 33.333%;
-    height: 280px;
+    height: 250px;
     padding: 0;
     float: left;
 }
@@ -47,15 +48,40 @@ li.iv-item {
 .iv-image-app {
     position: relative;
     top: 0;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin: 0;
     padding: 0;
-    border-radius: 25%;
+    border-radius: 25%; /* round corner */
 }
 
 .iv-app-name {
     font-size: 30px;
     margin-top: 5px;
     padding: 0;
+}
+
+@media only screen and (max-width: 735px){
+    li.iv-item {
+        width: 50%;
+        height: 160px;
+        padding: 0;
+        float: left;
+    }
+
+    .iv-image-app {
+        position: relative;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        border-radius: 25%;
+    }
+    
+    .iv-app-name {
+        font-size: 20px;
+        margin-top: 5px;
+        padding: 0;
+    }
 }
