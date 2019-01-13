@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./globalnav/style_globalnav.css">
     <link rel="stylesheet" type="text/css" href="./topview/style_topview.css">
     <link rel="stylesheet" type="text/css" href="./iosappsview/style_iosappsview.css">
-    <link rel="stylesheet" type="text/css" href="./awardsview/awardsview.css">
+    <link rel="stylesheet" type="text/css" href="./awardsview/style_awardsview.css">
 
     <!-- slick-theme.css -->
     <link rel="stylesheet" type="text/css" href="./awardsview/slick/slick.css" />
@@ -147,8 +147,10 @@
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 4000,
-                centerMode: true,
-                centerPadding: '0%',
+                centerMode: true,       /* スライドを中央揃え */
+                centerPadding: '0%',    /* スライドのpadding */
+                prevArrow: false,       /* 左の矢印を消す */
+                nextArrow: false,       /* 右の矢印を消す */
             });
         });
     </script>
