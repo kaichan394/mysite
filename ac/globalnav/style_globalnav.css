@@ -1,4 +1,4 @@
-#globalnav {
+#ac-globalnav {
     position: relative;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
     user-select:none;
 }
 
-.gn-content {
+.ac-gn-content {
     position: relative;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@
     height: 100%;
 }
 
-ul.gn-list {
+ul.ac-gn-list {
     position: relative;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@ ul.gn-list {
     list-style: none;
 }
  
-li.gn-item {
+li.ac-gn-item {
     position: relative;
     top: 0;
     height: 100%;
@@ -43,7 +43,7 @@ li.gn-item {
     list-style-type: none;
 }
  
-a.gn-link {
+a.ac-gn-link {
     display: block;
     padding: 17px 0;
     padding-left: 15px;
@@ -54,6 +54,6 @@ a.gn-link {
     color: white;
 }
 
-a.gn-link:hover {
+a.ac-gn-link:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
