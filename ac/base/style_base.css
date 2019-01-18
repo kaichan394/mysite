@@ -1,6 +1,7 @@
 body {
     font-family: -apple-system, 'BlinkMacSystemFont',  Sans-Serif;
     background-color: black;
+    color: white;
     margin: 0;
     padding: 0;
 }
@@ -16,4 +17,18 @@ footer {
     width: 100%;
     color: white;
     background-color: rgba(45,45,45,0.98);
+}
+
+.ac-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ac-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

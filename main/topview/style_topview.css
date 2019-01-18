@@ -17,14 +17,6 @@
 }
 
 .tv-content {
-    /* content to center */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.tv-content {
     text-align: center;
     color: white;
 }
