@@ -7,10 +7,11 @@
     <title>Kaito Hattori</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="./ac/base/style_base.css">
-    <link rel="stylesheet" type="text/css" href="./ac/globalnav/style_globalnav.css">
+    <link rel="stylesheet" type="text/css" href="./ac/style_base.css">
+    <link rel="stylesheet" type="text/css" href="./ac/style_globalnav.css">
+    <link rel="stylesheet" type="text/css" href="./ac/style_footer.css">
     <link rel="stylesheet" type="text/css" href="./topview/style_topview.css">
-    <link rel="stylesheet" type="text/css" href="./iosappsview/style_iosappsview.css">
+    <link rel="stylesheet" type="text/css" href="./appshowcase/style_appshowcase.css">
     <link rel="stylesheet" type="text/css" href="./awardsview/style_awardsview.css">
 
     <!-- slick-theme.css -->
@@ -23,9 +24,14 @@
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <!-- slick -->
+    <!-- slick API -->
     <script type="text/javascript" src="./awardsview/slick/slick.min.js"></script>
+    <!-- slick auto play -->
+    <script type="text/javascript" src="./script/slick_autoplay.js"></script>
+    <!-- scroll animation -->
+    <script type="text/javascript" src="./script/scrollanimation.js"></script>
 
+    
     <!-- global navigation bar -->
     <nav id="ac-globalnav">
         <div class="ac-gn-content">
@@ -41,8 +47,8 @@
                     </a>
                 </li>
                 <li class="ac-gn-item">
-                    <a class="ac-gn-link" href="https://kaitohattori.com/darkrem">
-                        <span class="ac-gn-link-text">Dark Rem</span>
+                    <a class="ac-gn-link" href="#appshowcase">
+                        <span class="ac-gn-link-text">Applications</span>
                     </a>
                 </li>
             </ul>
@@ -59,48 +65,48 @@
     </div>
 
     <!-- ios apps view -->
-    <div id="iosappsview">
-        <div class="iv-content ac-flex-column">
+    <div id="appshowcase">
+        <div class="as-content ac-flex-column">
             <h1>iOS Applications</h1>
-            <ul class="iv-list">
-                <li class="iv-item">
+            <ul class="as-list">
+                <li class="as-item">
                     <a href="https://itunes.apple.com/jp/app/colorful-qr%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90/id1084611037?l=en&mt=8"
                         target="_blank">
-                        <img class="iv-app-image" src="./iosappsview/images/colorful.png">
+                        <img class="as-app-image" src="./appshowcase/images/colorful.png">
                     </a>
-                    <p class="iv-app-name">Colorful</p>
+                    <p class="as-app-name">Colorful</p>
                 </li>
-                <li class="iv-item">
+                <li class="as-item">
                     <a href="https://itunes.apple.com/jp/app/calademo-%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7%E8%89%B2%E3%81%8A%E3%81%AB/id1088294271?l=en&mt=8"
                         target="_blank">
-                        <img class="iv-app-image" src="./iosappsview/images/calademo.png">
+                        <img class="as-app-image" src="./appshowcase/images/calademo.png">
                     </a>
-                    <p class="iv-app-name">Calademo</p>
+                    <p class="as-app-name">Calademo</p>
                 </li>
-                <li class="iv-item">
+                <li class="as-item">
                     <a href="https://itunes.apple.com/jp/app/wimc-where-is-my-car/id1164836966?l=en&mt=8" target="_blank">
-                        <img class="iv-app-image" src="./iosappsview/images/wimc.png">
+                        <img class="as-app-image" src="./appshowcase/images/wimc.png">
                     </a>
-                    <p class="iv-app-name">wimc</p>
+                    <p class="as-app-name">wimc</p>
                 </li>
-                <li class="iv-item">
+                <li class="as-item">
                     <a href="https://itunes.apple.com/jp/app/%E3%81%BF%E3%81%A4%E3%81%B0%E3%81%A1%E3%81%9A-autopilot/id1243395225?l"
                         target="_blank">
-                        <img class="iv-app-image" src="./iosappsview/images/mitsubachizu.png">
+                        <img class="as-app-image" src="./appshowcase/images/mitsubachizu.png">
                     </a>
-                    <p class="iv-app-name">Mitsubachizu</p>
+                    <p class="as-app-name">Mitsubachizu</p>
                 </li>
-                <li class="iv-item">
+                <li class="as-item">
                     <a href="https://itunes.apple.com/jp/app/classic/id1381192762?l=en&mt=8" target="_blank">
-                        <img class="iv-app-image" src="./iosappsview/images/classic.png">
+                        <img class="as-app-image" src="./appshowcase/images/classic.png">
                     </a>
-                    <p class="iv-app-name">Classic</p>
+                    <p class="as-app-name">Classic</p>
                 </li>
-                <li class="iv-item">
-                    <a href="https://itunes.apple.com/jp/app/dark-rem/id1437957717" target="_blank">
-                        <img class="iv-app-image" src="./iosappsview/images/dark-rem.png">
+                <li class="as-item">
+                    <a href="https://kaitohattori.com/darkrem">
+                        <img class="as-app-image" src="./appshowcase/images/dark-rem.png">
                     </a>
-                    <p class="iv-app-name">Dark Rem</p>
+                    <p class="as-app-name">Dark Rem</p>
                 </li>
             </ul>
         </div>
@@ -123,7 +129,8 @@
                     <img class="av-slide-image" src="./awardsview/images/mitsubachizu-1.jpg">
                     <div class="av-slide-info-content">
                         <b class="av-slide-title">MITSUBACHIZU</b>
-                        <p class="av-slide-competition">Microsoft Imagine Cup 2017 Japan Finalists<br>Best Award Winner of the 2016 National Institute of Technology’s Programming Contest</p>
+                        <p class="av-slide-competition">Microsoft Imagine Cup 2017 Japan Finalists<br>Best Award Winner
+                            of the 2016 National Institute of Technology’s Programming Contest</p>
                         <p class="av-slide-date">2016 ~ 2017</p>
                     </div>
                 </div>
@@ -131,7 +138,8 @@
                     <img class="av-slide-image" src="./awardsview/images/bee-fit.jpg">
                     <div class="av-slide-info-content">
                         <b class="av-slide-title">BEE-FIT</b>
-                        <p class="av-slide-competition">Second Award Winner of the Hack U Osaka 2016 (Hackathon held by Yahoo Japan)</p>
+                        <p class="av-slide-competition">Second Award Winner of the Hack U Osaka 2016 (Hackathon held by
+                            Yahoo Japan)</p>
                         <p class="av-slide-date">Oct, 2016</p>
                     </div>
                 </div>
@@ -139,23 +147,27 @@
         </div>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            $('.av-slideshow').slick({
-                dots: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                centerMode: true,       /* スライドを中央揃え */
-                centerPadding: '0%',    /* スライドのpadding */
-                prevArrow: false,       /* 左の矢印を消す */
-                nextArrow: false,       /* 右の矢印を消す */
-            });
-        });
-    </script>
-
-    <footer></footer>
+    <footer id="footer">
+        <div class="footer-content">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a class="footer-link" href="https://www.facebook.com/kaichan394" target="_blank">
+                        <img class="footer-link-icon" src="./ac/icons/icon-facebook.png">
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="https://www.linkedin.com/in/kaitohattori/" target="_blank">
+                        <img class="footer-link-icon" src="./ac/icons/icon-linkedin.png">
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="https://github.com/kaichan394" target="_blank">
+                        <img class="footer-link-icon" src="./ac/icons/icon-github.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
