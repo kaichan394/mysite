@@ -1,4 +1,4 @@
-#iosappsview {
+#appshowcase {
     position: relative;
     top: 0;
     left: 0;
@@ -7,7 +7,7 @@
     height: 100%;
 }
 
-.iv-content {
+.as-content {
     position: relative;
     top: 0;
     left: 0;
@@ -19,26 +19,26 @@
     padding: 0;
 }
 
-.iv-content {
+.as-content {
     text-align: center;
     color: white;
 }
 
-ul.iv-list {
+ul.as-list {
     width: 100%;
     margin: 0;
     padding: 0;
     list-style: none outside;
 }
 
-li.iv-item {
+li.as-item {
     width: 33.333%;
     height: 250px;
     padding: 0;
     float: left;
 }
 
-.iv-app-image {
+.as-app-image {
     position: relative;
     top: 0;
     width: 180px;
@@ -48,21 +48,21 @@ li.iv-item {
     border-radius: 25%; /* round corner */
 }
 
-.iv-app-name {
+.as-app-name {
     font-size: 30px;
     margin-top: 5px;
     padding: 0;
 }
 
 @media only screen and (max-width: 735px){
-    li.iv-item {
+    li.as-item {
         width: 50%;
         height: 160px;
         padding: 0;
         float: left;
     }
 
-    .iv-app-image {
+    .as-app-image {
         position: relative;
         top: 0;
         width: 100px;
@@ -72,7 +72,7 @@ li.iv-item {
         border-radius: 25%;
     }
     
-    .iv-app-name {
+    .as-app-name {
         font-size: 20px;
         margin-top: 5px;
         padding: 0;
